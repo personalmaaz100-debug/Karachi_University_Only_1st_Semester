@@ -1,0 +1,208 @@
+Here’s a lab manual–style set of Java programs using Objects and Exception Handling (advanced level). These are structured like exam/lab solutions with objective, concept, code, and sample output.
+🔹 EXPERIMENT 1: Exception Handling using Objects (Division System)
+🎯 Objective:
+To demonstrate exception handling using class objects for division operation.
+📘 Concept:
+Exceptions like ArithmeticException occur when dividing by zero. We handle it using try-catch.
+💻 Program:
+Java
+import java.util.Scanner;
+
+class Division {
+    int a, b;
+
+    Division(int x, int y) {
+        a = x;
+        b = y;
+    }
+
+    void divide() {
+        try {
+            int result = a / b;
+            System.out.println("Result = " + result);
+        } catch (ArithmeticException e) {
+            System.out.println("Error: Division by zero is not allowed.");
+        }
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+
+        System.out.print("Enter first number: ");
+        int x = input.nextInt();
+
+        System.out.print("Enter second number: ");
+        int y = input.nextInt();
+
+        Division obj = new Division(x, y);
+        obj.divide();
+    }
+}
+🧾 Sample Output:
+
+Enter first number: 10
+Enter second number: 0
+Error: Division by zero is not allowed.
+🔹 EXPERIMENT 2: Multiple Exceptions using Objects
+🎯 Objective:
+To handle multiple exceptions using a class.
+📘 Concept:
+We handle:
+ArithmeticException
+ArrayIndexOutOfBoundsException
+💻 Program:
+Java
+class TestExceptions {
+    void check() {
+        try {
+            int arr[] = {1, 2, 3};
+            System.out.println(arr[5]); // error
+
+            int x = 10 / 0; // error
+        } 
+        catch (ArrayIndexOutOfBoundsException e) {
+            System.out.println("Array index error.");
+        } 
+        catch (ArithmeticException e) {
+            System.out.println("Arithmetic error.");
+        }
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        TestExceptions obj = new TestExceptions();
+        obj.check();
+    }
+}
+🧾 Output:
+
+Array index error.
+🔹 EXPERIMENT 3: User-Defined Exception with Object
+🎯 Objective:
+To create and use a custom exception class.
+📘 Concept:
+Custom exceptions extend Exception.
+💻 Program:
+Java
+class InvalidAgeException extends Exception {
+    InvalidAgeException(String msg) {
+        super(msg);
+    }
+}
+
+class Voting {
+    int age;
+
+    Voting(int age) {
+        this.age = age;
+    }
+
+    void checkEligibility() throws InvalidAgeException {
+        if (age < 18) {
+            throw new InvalidAgeException("Not eligible for voting");
+        } else {
+            System.out.println("Eligible for voting");
+        }
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        Voting obj = new Voting(16);
+
+        try {
+            obj.checkEligibility();
+        } catch (InvalidAgeException e) {
+            System.out.println(e.getMessage());
+        }
+    }
+}
+🧾 Output:
+
+Not eligible for voting
+🔹 EXPERIMENT 4: File Handling + Exception Handling (Advanced)
+🎯 Objective:
+To read a file using objects and handle exceptions.
+📘 Concept:
+We use:
+FileReader
+BufferedReader
+Handle IOException
+💻 Program:
+Java
+import java.io.*;
+
+class FileRead {
+    void readFile() {
+        try {
+            FileReader fr = new FileReader("data.txt");
+            BufferedReader br = new BufferedReader(fr);
+
+            String line;
+            while ((line = br.readLine()) != null) {
+                System.out.println(line);
+            }
+
+            br.close();
+        } catch (FileNotFoundException e) {
+            System.out.println("File not found.");
+        } catch (IOException e) {
+            System.out.println("Error reading file.");
+        }
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        FileRead obj = new FileRead();
+        obj.readFile();
+    }
+}
+🧾 Output:
+
+File not found.
+🔹 EXPERIMENT 5: Finally Block with Object
+🎯 Objective:
+To demonstrate use of finally block.
+📘 Concept:
+finally always executes whether exception occurs or not.
+💻 Program:
+Java
+class FinallyDemo {
+    void show() {
+        try {
+            int x = 10 / 2;
+            System.out.println("Result: " + x);
+        } catch (Exception e) {
+            System.out.println("Error occurred.");
+        } finally {
+            System.out.println("Finally block executed.");
+        }
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        FinallyDemo obj = new FinallyDemo();
+        obj.show();
+    }
+}
+🧾 Output:
+
+Result: 5
+Finally block executed.
+🔥 EXTRA (Exam Practice Questions)
+Try these yourself:
+Create a class BankAccount:
+Throw exception if withdrawal > balance.
+Create program:
+Accept string → convert to integer → handle NumberFormatException.
+Create file-based student system:
+Handle missing file + invalid data.
+Nested try-catch example using objects.
+If you want, I can also give: ✅ Mini Project (Exception + File Handling + OOP)
+✅ GUI version (Java Swing)
+✅ Viva questions + answers (important for exam)
