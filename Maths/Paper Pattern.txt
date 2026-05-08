@@ -1,0 +1,104 @@
+Attempt 10 Question  100 marks
+Q.1  Chap 1
+Q.2  Chap 1
+Q.3  Chap 2
+Q.4  Chap 2 and 3
+Q.5  Chap 3
+Q.6  Chap 4.1 and 4.8
+Q.7  Chap 5
+Q.8  Chap 5 
+Q.9  Chap 7
+Q.10 Chap 7
+Q.11 Chap 11
+Q.12 Chap 11
+
+Limit (example Q.2 to Q.7)
+Exercise 1.1, Q.1 to Q9
+
+Computing Limit (Example Q.8 to Q.11 )
+Exercise 1.2, Q.3 to Q32, 37,38,39,40
+
+Limit at infinity (Example Q.5 to Q.11)
+Exercise 1.3 Q.1 to Q.4, Q.9 to Q.40,Q.55 to Q.62
+
+Continuity (Example Q.1 to Q.4)
+Exercise 1.5, Q.1 to Q.6, Q.11 to Q.22, 29,30,31,32,35,36.
+
+Continuity of Trignomentric, exponential and inverse function
+Exercise 1.6, Q.17 to Q.40(excluding 17,37,22), Q.49
+
+Exercise Review chapter 1 Q.1 and Q.5 to Q.18.
+
+INTRODUCTION TO TECHNIQUES OF DIFFERENTIATION (Example Q.7, Q.8)
+Exercise 2.3, Q.1 to Q.24 (odd),Q.43 to Q.47 (odd)
+
+THE PRODUCT AND QUOTIENT RULES
+Exercise 2.4, Q.1 to Q.24 (odd)
+
+DERIVATIVES OF TRIGONOMETRIC FUNCTIONS
+Exercise 2.5, Q.1 to Q.27 (odd)
+
+THE CHAIN RULE
+Exercise 2.6, Q.7 to Q.50 (odd)
+
+IMPLICIT DIFFERENTIATION
+Exercise 3.1, Q.1 to Q.18
+
+DERIVATIVES OF LOGARITHMIC FUNCTIONS
+Exercise 3.2, Q.1 to Q.40 (odd)
+
+DERIVATIVES OF EXPONENTIAL AND INVERSE TRIGONOMETRIC FUNCTIONS
+Exercise 3.3, Q.15 to Q.42 (odd)
+
+L’HÔPITAL’S RULE; INDETERMINATE FORMS
+Exercise 3.6, Q.7 to Q.45 (odd)
+
+Indefinite Integral, 
+Exercise 5.2, Q.11 to Q.36
+
+Integration by substitution, Exercise 5.3 Q.1 to Q.6 (odd)
+
+The definite Integral, 
+Exercise 5.5, Q.13 to Q.34 
+
+The fundamental Theorem of Calculus, 
+Exercise 5.6, Q.1 to Q.34
+
+Evaluating Definete Integral by Substitution, 
+Exercise 5.9, Q.5 to Q.45 (odd)
+
+An over view of Integration Method, 
+Exercise 7.1, Q.1 to 19 (odd)
+
+Integration By Parts, 
+Exercise 7.2, Q.1 to Q.38 (odd)
+
+Integrating Trignimentry Function, 
+Exercise 7.3, Q.1 to Q.37 (odd)
+
+Trignomentry substitution, 
+Exercise 7.4, Q.1 to Q.37 (Prime num Q)
+
+Integration Rational Functions by Partial Fraction, 
+Exercise 7.5, Q.1 to Q.31 (odd)
+
+Improper Integral (all Examples)
+Exercise 7.8, Q.1 to Q.32.
+
+Parametric equations of Lines (All examles)
+Exercise 11.5 Q.3 to Q.13 (odd), Q.15 to Q.28, Q.29 to Q.37 (odd) 
+
+Plane in 3- Space (All examples)
+Exercise 11.6, Q.3 to Q.20 (odd), Q.24 to Q.38, Q.41 to Q.51 (odd)
+
+ANALYSIS OF FUNCTIONS I: INCREASE, DECREASE, AND CONCAVITY
+Exercise 4.1 Q.15 to Q.38(odd)
+
+Analysis of Functions II: Relative Extrema; Graphing Polynomials
+Exercise 4.2, Q.7 to Q.14. Q.25 to Q.60 (Multiple of 4)
+
+ABSOLUTE MAXIMA AND MINIMA
+Exercise 4.4, Q7 to Q 16 (odd), Q.21 to Q.28(odd) 
+
+ROLLE’S THEOREM; MEAN-VALUE THEOREM
+Exercise 4.8, Q.1 to Q.8
